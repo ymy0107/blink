@@ -1,0 +1,245 @@
+2024-11-20 11:50:26,435 | [1;44mINFO[1;0m | 10001	log	20	topologies/5switches_routing.json	31
+2024-11-20 11:50:26,436 | [1;44mINFO[1;0m | {u'h2': 0, u's2': 3, u's1': 4, u'h1': 1, u's5': 5, u's4': 6, u's3': 2}
+2024-11-20 11:50:39,185 | Level 25 | do_register_write switch_ip 0 3368601605
+2024-11-20 11:50:39,185 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 11:50:39,185 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 11:50:39,185 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 11:50:39,185 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 11:50:39,185 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 0
+2024-11-20 11:50:39,185 | Level 25 | do_register_write next_hops_port 0 0
+2024-11-20 11:50:39,185 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 0
+2024-11-20 11:50:39,185 | Level 25 | do_register_write next_hops_port 3 0
+2024-11-20 11:50:39,185 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 6
+2024-11-20 11:50:39,186 | Level 25 | do_register_write next_hops_port 6 6
+2024-11-20 11:50:39,186 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 6
+2024-11-20 11:50:39,186 | Level 25 | do_register_write next_hops_port 9 6
+2024-11-20 11:50:39,186 | Level 25 | table add bgp_tag set_bgp_tag 1 8a:96:e5:cc:af:d6 => 0
+2024-11-20 11:50:39,186 | Level 25 | table add bgp_tag set_bgp_tag 3 12:c0:65:13:dd:7d => 0
+2024-11-20 11:50:39,186 | Level 25 | table add bgp_tag set_bgp_tag 2 4e:4a:16:8b:8f:dc => 0
+2024-11-20 11:50:39,186 | Level 25 | do_register_write switch_ip 0 3368601603
+2024-11-20 11:50:39,186 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 11:50:39,186 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 11:50:39,187 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 11:50:39,187 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 11:50:39,187 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 11:50:39,187 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 11:50:39,187 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 11:50:39,187 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 11:50:39,187 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 11:50:39,187 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 11:50:39,187 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 11:50:39,187 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 11:50:39,187 | Level 25 | table add bgp_tag set_bgp_tag 2 2a:f4:6a:9e:f2:6d => 0
+2024-11-20 11:50:39,187 | Level 25 | table add bgp_tag set_bgp_tag 1 e2:b6:70:a8:48:7b => 1
+2024-11-20 11:50:39,253 | Level 25 | do_register_write switch_ip 0 3368601602
+2024-11-20 11:50:39,253 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 11:50:39,253 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 11:50:39,253 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 11:50:39,253 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 11:50:39,253 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 11:50:39,253 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 11:50:39,253 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 11:50:39,253 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 11:50:39,253 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 11:50:39,254 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 11:50:39,254 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 11:50:39,254 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 11:50:39,254 | Level 25 | table add bgp_tag set_bgp_tag 1 06:7b:d5:4a:f3:15 => 1
+2024-11-20 11:50:39,254 | Level 25 | table add bgp_tag set_bgp_tag 2 f2:bf:df:a7:23:fc => 0
+2024-11-20 11:50:39,263 | Level 25 | do_register_write switch_ip 0 3368601604
+2024-11-20 11:50:39,263 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 11:50:39,264 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 11:50:39,264 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 11:50:39,264 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 11:50:39,264 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 11:50:39,264 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 11:50:39,264 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 11:50:39,264 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 11:50:39,264 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 11:50:39,264 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 11:50:39,264 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 11:50:39,264 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 11:50:39,264 | Level 25 | table add bgp_tag set_bgp_tag 2 aa:f7:af:92:76:d8 => 0
+2024-11-20 11:50:39,264 | Level 25 | table add bgp_tag set_bgp_tag 1 3e:57:d8:f7:12:95 => 1
+2024-11-20 11:50:39,285 | Level 25 | do_register_write switch_ip 0 3368601601
+2024-11-20 11:50:39,286 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 11:50:39,286 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 11:50:39,286 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 11:50:39,286 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 11:50:39,286 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 1 3
+2024-11-20 11:50:39,286 | Level 25 | do_register_write next_hops_port 0 3
+2024-11-20 11:50:39,286 | Level 25 | do_register_write next_hops_port 1 2
+2024-11-20 11:50:39,286 | Level 25 | do_register_write next_hops_port 2 6
+2024-11-20 11:50:39,286 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 1 3
+2024-11-20 11:50:39,286 | Level 25 | do_register_write next_hops_port 3 3
+2024-11-20 11:50:39,286 | Level 25 | do_register_write next_hops_port 4 2
+2024-11-20 11:50:39,286 | Level 25 | do_register_write next_hops_port 5 6
+2024-11-20 11:50:39,286 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 1
+2024-11-20 11:50:39,287 | Level 25 | do_register_write next_hops_port 6 1
+2024-11-20 11:50:39,287 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 1
+2024-11-20 11:50:39,287 | Level 25 | do_register_write next_hops_port 9 1
+2024-11-20 11:50:39,287 | Level 25 | table add bgp_tag set_bgp_tag 4 62:b7:09:d0:e0:24 => 0
+2024-11-20 11:50:39,287 | Level 25 | table add bgp_tag set_bgp_tag 3 22:91:ef:a6:da:84 => 0
+2024-11-20 11:50:39,287 | Level 25 | table add bgp_tag set_bgp_tag 2 f2:70:b8:f6:63:5d => 0
+2024-11-20 12:02:34,725 | Level 25 | do_register_write switch_ip 0 3368601603
+2024-11-20 12:02:34,726 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:02:34,726 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:02:34,726 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:02:34,726 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:02:34,726 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 12:02:34,726 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 12:02:34,726 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 12:02:34,726 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 12:02:34,726 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 12:02:34,727 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 12:02:34,727 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 12:02:34,727 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 12:02:34,727 | Level 25 | table add bgp_tag set_bgp_tag 2 2a:f4:6a:9e:f2:6d => 0
+2024-11-20 12:02:34,727 | Level 25 | table add bgp_tag set_bgp_tag 1 e2:b6:70:a8:48:7b => 1
+2024-11-20 12:02:34,921 | Level 25 | do_register_write switch_ip 0 3368601605
+2024-11-20 12:02:34,921 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:02:34,921 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:02:34,921 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:02:34,921 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:02:34,921 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 0
+2024-11-20 12:02:34,921 | Level 25 | do_register_write next_hops_port 0 0
+2024-11-20 12:02:34,921 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 0
+2024-11-20 12:02:34,921 | Level 25 | do_register_write next_hops_port 3 0
+2024-11-20 12:02:34,921 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 6
+2024-11-20 12:02:34,921 | Level 25 | do_register_write next_hops_port 6 6
+2024-11-20 12:02:34,921 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 6
+2024-11-20 12:02:34,921 | Level 25 | do_register_write next_hops_port 9 6
+2024-11-20 12:02:34,921 | Level 25 | table add bgp_tag set_bgp_tag 1 8a:96:e5:cc:af:d6 => 0
+2024-11-20 12:02:34,922 | Level 25 | table add bgp_tag set_bgp_tag 3 12:c0:65:13:dd:7d => 0
+2024-11-20 12:02:34,922 | Level 25 | table add bgp_tag set_bgp_tag 2 4e:4a:16:8b:8f:dc => 0
+2024-11-20 12:02:34,923 | Level 25 | do_register_write switch_ip 0 3368601601
+2024-11-20 12:02:34,923 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:02:34,923 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:02:34,923 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:02:34,923 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:02:34,923 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 1 3
+2024-11-20 12:02:34,923 | Level 25 | do_register_write next_hops_port 0 3
+2024-11-20 12:02:34,923 | Level 25 | do_register_write next_hops_port 1 2
+2024-11-20 12:02:34,923 | Level 25 | do_register_write next_hops_port 2 6
+2024-11-20 12:02:34,924 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 1 3
+2024-11-20 12:02:34,924 | Level 25 | do_register_write next_hops_port 3 3
+2024-11-20 12:02:34,924 | Level 25 | do_register_write next_hops_port 4 2
+2024-11-20 12:02:34,924 | Level 25 | do_register_write next_hops_port 5 6
+2024-11-20 12:02:34,924 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 1
+2024-11-20 12:02:34,924 | Level 25 | do_register_write next_hops_port 6 1
+2024-11-20 12:02:34,924 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 1
+2024-11-20 12:02:34,924 | Level 25 | do_register_write next_hops_port 9 1
+2024-11-20 12:02:34,924 | Level 25 | table add bgp_tag set_bgp_tag 4 62:b7:09:d0:e0:24 => 0
+2024-11-20 12:02:34,924 | Level 25 | table add bgp_tag set_bgp_tag 3 22:91:ef:a6:da:84 => 0
+2024-11-20 12:02:34,924 | Level 25 | table add bgp_tag set_bgp_tag 2 f2:70:b8:f6:63:5d => 0
+2024-11-20 12:02:34,954 | Level 25 | do_register_write switch_ip 0 3368601604
+2024-11-20 12:02:34,954 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:02:34,954 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:02:34,954 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:02:34,954 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:02:34,954 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 12:02:34,955 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 12:02:34,955 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 12:02:34,955 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 12:02:34,956 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 12:02:34,956 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 12:02:34,956 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 12:02:34,956 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 12:02:34,956 | Level 25 | table add bgp_tag set_bgp_tag 2 aa:f7:af:92:76:d8 => 0
+2024-11-20 12:02:34,956 | Level 25 | table add bgp_tag set_bgp_tag 1 3e:57:d8:f7:12:95 => 1
+2024-11-20 12:02:34,996 | Level 25 | do_register_write switch_ip 0 3368601602
+2024-11-20 12:02:34,996 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:02:34,997 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:02:34,997 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:02:34,997 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:02:34,997 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 12:02:34,997 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 12:02:34,997 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 12:02:34,997 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 12:02:34,997 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 12:02:34,997 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 12:02:34,997 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 12:02:34,997 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 12:02:34,997 | Level 25 | table add bgp_tag set_bgp_tag 1 06:7b:d5:4a:f3:15 => 1
+2024-11-20 12:02:34,997 | Level 25 | table add bgp_tag set_bgp_tag 2 f2:bf:df:a7:23:fc => 0
+2024-11-20 12:11:10,162 | Level 25 | do_register_write switch_ip 0 3368601601
+2024-11-20 12:11:10,163 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:11:10,163 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:11:10,163 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:11:10,163 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:11:10,163 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 1 3
+2024-11-20 12:11:10,163 | Level 25 | do_register_write next_hops_port 0 3
+2024-11-20 12:11:10,163 | Level 25 | do_register_write next_hops_port 1 2
+2024-11-20 12:11:10,163 | Level 25 | do_register_write next_hops_port 2 6
+2024-11-20 12:11:10,164 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 1 3
+2024-11-20 12:11:10,164 | Level 25 | do_register_write next_hops_port 3 3
+2024-11-20 12:11:10,164 | Level 25 | do_register_write next_hops_port 4 2
+2024-11-20 12:11:10,164 | Level 25 | do_register_write next_hops_port 5 6
+2024-11-20 12:11:10,164 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 1
+2024-11-20 12:11:10,164 | Level 25 | do_register_write next_hops_port 6 1
+2024-11-20 12:11:10,164 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 1
+2024-11-20 12:11:10,164 | Level 25 | do_register_write next_hops_port 9 1
+2024-11-20 12:11:10,164 | Level 25 | table add bgp_tag set_bgp_tag 4 62:b7:09:d0:e0:24 => 0
+2024-11-20 12:11:10,164 | Level 25 | table add bgp_tag set_bgp_tag 3 22:91:ef:a6:da:84 => 0
+2024-11-20 12:11:10,164 | Level 25 | table add bgp_tag set_bgp_tag 2 f2:70:b8:f6:63:5d => 0
+2024-11-20 12:11:10,388 | Level 25 | do_register_write switch_ip 0 3368601602
+2024-11-20 12:11:10,388 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:11:10,388 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:11:10,388 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:11:10,388 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:11:10,388 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 12:11:10,388 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 12:11:10,388 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 12:11:10,388 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 12:11:10,389 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 12:11:10,389 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 12:11:10,389 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 12:11:10,389 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 12:11:10,389 | Level 25 | table add bgp_tag set_bgp_tag 1 06:7b:d5:4a:f3:15 => 1
+2024-11-20 12:11:10,389 | Level 25 | table add bgp_tag set_bgp_tag 2 f2:bf:df:a7:23:fc => 0
+2024-11-20 12:11:10,394 | Level 25 | do_register_write switch_ip 0 3368601604
+2024-11-20 12:11:10,394 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:11:10,394 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:11:10,394 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:11:10,394 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:11:10,394 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 12:11:10,394 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 12:11:10,394 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 12:11:10,394 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 12:11:10,394 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 12:11:10,394 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 12:11:10,395 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 12:11:10,395 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 12:11:10,395 | Level 25 | table add bgp_tag set_bgp_tag 2 aa:f7:af:92:76:d8 => 0
+2024-11-20 12:11:10,395 | Level 25 | table add bgp_tag set_bgp_tag 1 3e:57:d8:f7:12:95 => 1
+2024-11-20 12:11:10,413 | Level 25 | do_register_write switch_ip 0 3368601605
+2024-11-20 12:11:10,414 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:11:10,414 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:11:10,414 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:11:10,414 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:11:10,414 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 0
+2024-11-20 12:11:10,414 | Level 25 | do_register_write next_hops_port 0 0
+2024-11-20 12:11:10,414 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 0
+2024-11-20 12:11:10,414 | Level 25 | do_register_write next_hops_port 3 0
+2024-11-20 12:11:10,414 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 6
+2024-11-20 12:11:10,414 | Level 25 | do_register_write next_hops_port 6 6
+2024-11-20 12:11:10,414 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 6
+2024-11-20 12:11:10,414 | Level 25 | do_register_write next_hops_port 9 6
+2024-11-20 12:11:10,414 | Level 25 | table add bgp_tag set_bgp_tag 1 8a:96:e5:cc:af:d6 => 0
+2024-11-20 12:11:10,414 | Level 25 | table add bgp_tag set_bgp_tag 3 12:c0:65:13:dd:7d => 0
+2024-11-20 12:11:10,415 | Level 25 | table add bgp_tag set_bgp_tag 2 4e:4a:16:8b:8f:dc => 0
+2024-11-20 12:11:10,586 | Level 25 | do_register_write switch_ip 0 3368601603
+2024-11-20 12:11:10,586 | Level 25 | do_register_write threshold_registers 0 31
+2024-11-20 12:11:10,586 | Level 25 | do_register_write threshold_registers 1 31
+2024-11-20 12:11:10,586 | Level 25 | do_register_write threshold_registers 2 31
+2024-11-20 12:11:10,586 | Level 25 | do_register_write threshold_registers 3 31
+2024-11-20 12:11:10,586 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 0 => 0 0 5
+2024-11-20 12:11:10,586 | Level 25 | do_register_write next_hops_port 0 5
+2024-11-20 12:11:10,586 | Level 25 | table add meta_fwtable set_meta 10.0.5.2/24 1 => 1 0 5
+2024-11-20 12:11:10,586 | Level 25 | do_register_write next_hops_port 3 5
+2024-11-20 12:11:10,586 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 0 => 2 0 4
+2024-11-20 12:11:10,586 | Level 25 | do_register_write next_hops_port 6 4
+2024-11-20 12:11:10,586 | Level 25 | table add meta_fwtable set_meta 10.0.1.1/24 1 => 3 0 4
+2024-11-20 12:11:10,586 | Level 25 | do_register_write next_hops_port 9 4
+2024-11-20 12:11:10,587 | Level 25 | table add bgp_tag set_bgp_tag 2 2a:f4:6a:9e:f2:6d => 0
+2024-11-20 12:11:10,587 | Level 25 | table add bgp_tag set_bgp_tag 1 e2:b6:70:a8:48:7b => 1
